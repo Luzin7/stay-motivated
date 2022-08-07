@@ -26,10 +26,3 @@ Entre no diretório do projeto
 Inicie o servidor
 
 Utilizei e utilizo o [Live Server](https://awesomeopensource.com/project/elangosundar/awesome-README-templates) para rodar locamente um servidor nas minhas aplicações estáticas.
-## Deploy
-
-Para fazer o deploy desse projeto rode
-
-```bash
-  npm run deploy
-```
