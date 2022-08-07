@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Um site que mostra citações aleatórias relacionadas a motivação."
+    />
+    <meta http-equiv="refresh" content="30" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Merriweather+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/globalStyles.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+
+    <title>Mantenha-se motivado</title>
+  </head>
+  <script type="module" src="./data/data.js"></script>
+  <script type="module" src="./functions/getRandomQuote.js"></script>
+  <script type="module" src="./functions/injectQuote.js"></script>
+  <body>
+    <main class="main">
+      <div class="main__content">
+        <h1 class="quote__title">Mantenha-se motivado</h1>
+        <q id="quote" class="quote"></q>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__content">
+        <span
+          >Desenvolvido por
+          <a href="http://github.com/luzin7" target="_blank" rel="noreferrer"
+            >Luan Victor</a
+          ></span
+        >
+      </div>
+    </footer>
+  </body>
+</html>
