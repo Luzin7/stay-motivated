@@ -3,6 +3,8 @@
 
 Um site que mostra citações motivacionais aleatórias sempre que o visita.
 
+[Visite aqui!](https://luzin7.github.io/stay-motivated/)
+
 
 ## Stack utilizada
 
