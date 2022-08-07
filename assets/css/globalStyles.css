@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Merriweather Sans", sans-serif;
+  color: var(--text-color);
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+:root {
+  --background-color: #232622;
+  --title-color: #8c897b;
+  --sub-color: #f2de79;
+  --text-color: #fcfcfc;
+}
